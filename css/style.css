@@ -69,4 +69,39 @@
  .recipe-ingredients{
   background-color: white;
  }
- 
+
+ /* social */
+
+ .links-social{
+  display: flex;
+  justify-content: space-around; 
+  margin: 10px 0;
+ }
+ .social{
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  width: 40px;
+  padding: 7px;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 3px 0 5px 1px grey;
+
+ }
+
+ .fa-facebook{
+  color: #1774f3;
+ }
+
+ .fa-twitter{
+  color:#009eff ;
+ }
+ .fa-instagram{
+  color: #df79bc ;
+ }
+ .fa-pinterest{
+  color: #e51618;
+ }
+ .fa-youtube{
+  color: #e62222;
+ }
