@@ -115,3 +115,33 @@
   padding: 0;
  border: 1px solid orange;
  }
+
+ /* footer */
+
+ footer{
+  background-color: #7c69a4;
+  color: white;
+ }
+
+ .footer-info{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .headquarters-info{
+  text-align: center;
+ }
+
+.policy-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.policys{
+  color: white;
+
+  padding: 5px;
+}
