@@ -97,6 +97,9 @@
  .social:hover{
   background-color: lightgrey;
  }
+ a > span{
+  display: none;
+}
 
  .fa-facebook{
   color: #1774f3;
@@ -215,6 +218,10 @@ header{
   justify-content: center;
 }
 
+a > span{
+  display: none;
+}
+
 /* banner */
 
 .bruce{
@@ -228,6 +235,49 @@ header{
   max-width: 355px;
   padding: 10px;
 }
+
+}
+
+/* desktop */
+
+@media screen and (min-width: 992px) {
+
+/* recipe */
+
+.recipe{
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.col-vid{
+  width: 70%;
+}
+
+.recipe-ingredients{
+  width: 30%;
+}
+
+.recipe-list{
+  flex-direction: column;
+}
+
+.recipe-list li{
+  padding: none;
+}
+
+/* social */
+
+a > span{
+  display: inline-block;
+  padding-left: 5PX;
+  font-weight: bolder;
+}
+
+.social{
+  padding: 7px 65px;
+}
+
 
 
 
