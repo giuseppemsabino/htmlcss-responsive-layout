@@ -129,6 +129,10 @@
  border: 1px solid orange;
  }
 
+ .description{
+  line-height: 1.8rem;
+ }
+
  /* footer */
 
  footer{
@@ -161,7 +165,7 @@
 
 /* tablet 768px */
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   
 /* header */
 header{
@@ -194,7 +198,7 @@ header{
 }
 
 .recipe-list li{
-  padding: 10px 50px
+  padding: 10px 100px 10px 0;
 }
 
 /* social */
@@ -217,10 +221,13 @@ header{
   display: block;
 }
 
-/* presentation */
+/* presentation  355 */
 
-
-
+.tiramisu-image{
+  float: left;
+  max-width: 355px;
+  padding: 10px;
+}
 
 
 
