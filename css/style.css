@@ -18,6 +18,7 @@
   }
   body *{
     padding: 5px 0;
+    font-family: "Montserrat", sans-serif;
   }
   
   
@@ -37,13 +38,18 @@
 
   /* header */
 
-  header{
+  .booleano-header{
     font-size: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: white;
     color: #ff9614;
+  }
+  .booleano-header h1{
+    font-family: "Nerko One", cursive;
+    font-weight: 2rem;
+     font-style:italic;
   }
 
  /* recipe */
@@ -171,7 +177,7 @@
 @media screen and (min-width: 768px) {
   
 /* header */
-header{
+.booleano-header{
   display: flex;
   justify-content: flex-start;
   padding: 10px;
@@ -242,6 +248,12 @@ a > span{
 
 @media screen and (min-width: 992px) {
 
+/* header */
+.booleano-header{
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+}
 /* recipe */
 
 .recipe{
@@ -261,9 +273,11 @@ a > span{
 .recipe-list{
   flex-direction: column;
 }
-
+.recipe-ingredients h2{
+  margin-left: 30px;
+ }
 .recipe-list li{
-  padding: none;
+  padding: 10px 20px;
 }
 
 /* social */
@@ -276,6 +290,7 @@ a > span{
 
 .social{
   padding: 7px 65px;
+  align-items: center;
 }
 
 /* footer */
