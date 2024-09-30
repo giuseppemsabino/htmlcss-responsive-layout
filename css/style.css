@@ -43,6 +43,7 @@
     align-items: center;
     justify-content: center;
     background-color: white;
+    color: #ff9614;
   }
 
  /* recipe */
@@ -52,6 +53,9 @@
  }
  .recipe-title h2{
   color: #4e3969;
+ }
+ .tiramisu-complete-title{
+  display: none;
  }
 
  .recipe{
@@ -68,6 +72,9 @@
 
  .recipe-ingredients{
   background-color: white;
+ }
+ .recipe-ingredients h2{
+  margin-left: 10px;
  }
 
  /* social */
@@ -144,4 +151,59 @@
   color: white;
 
   padding: 5px;
+}
+
+/* tablet 768px */
+
+@media screen and (max-width: 768px) {
+  
+/* header */
+header{
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.container{
+  margin: 0 auto;
+    padding: 0 40px;
+    width: 1000px;
+    max-width: 100%;
+}
+
+  /* title */
+
+.tiramisu-complete-title{
+  display: inline;
+}
+
+/* recipe */
+.recipe{
+  padding: 20px 0;
+}
+
+.recipe-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.recipe-list li{
+  padding: 10px 50px
+}
+
+/* social */
+
+.social {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  /* width: 40px; */
+  padding: 7px 55px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 3px 0 5px 1px grey;
+  display: flex;
+  justify-content: center;
+
+}
 }
